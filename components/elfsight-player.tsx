@@ -14,7 +14,7 @@ export default function ElfsightPlayer() {
 
   return (
     <div className="audio-player-container">
-      <h3 className="text-xl font-semibold text-[#ff4d79] mb-4">Listen to Our Song</h3>
+      <h3 className="text-xl font-semibold text-[#ff4d79] mb-4">Listen before starting</h3>
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         strategy="afterInteractive"
