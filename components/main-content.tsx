@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react"
 import IntroSection from "./intro-section"
 import GallerySection from "./gallery-section"
 import LetterSection from "./letter-section"
+import ElfsightPlayer from "./elfsight-player"
 
 interface MainContentProps {
   visible: boolean
@@ -40,6 +41,7 @@ export default function MainContent({ visible, onImageClick }: MainContentProps)
         <IntroSection />
         <GallerySection onImageClick={onImageClick} />
         <LetterSection />
+        <ElfsightPlayer />
       </div>
     </div>
   )

@@ -207,3 +207,22 @@ body {
     opacity: 0.2;
   }
 }
+
+/* Elfsight Audio Player Styles */
+.audio-player-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto 4rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(255, 107, 139, 0.15);
+  text-align: center;
+  border: 1px solid var(--primary-light);
+  transition: all 0.3s ease;
+}
+
+.audio-player-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(255, 107, 139, 0.25);
+}
